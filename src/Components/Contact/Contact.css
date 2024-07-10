@@ -1,0 +1,79 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #102338;
+    height: 100vh;
+    justify-content: center;
+
+}
+.contact-title h1{
+    font-size: 40px;
+    font-weight:500 ;
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+ 
+
+
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+
+}
+.contact-right label{
+    font-size: 22px;
+    font-weight: 500;
+    margin:0 auto;
+
+
+}
+.contact-right input{
+    border: none;
+    width: 80%;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    font-family: "roboto";
+    font-size:20px ;
+    margin:0 auto;
+    color:white;
+
+
+}
+.contact-right textarea{
+    width: 330px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    font-family: roboto;
+    font-size: 20px;
+    margin:0 auto;
+    color:white;
+
+}
+.contact-submit{
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50%;
+    margin:20px auto;
+    padding:10px;
+}
+.contact-submit:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+span{
+    color: red;
+}

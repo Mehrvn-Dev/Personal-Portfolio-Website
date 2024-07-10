@@ -1,0 +1,51 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    background-image: url('../../assets/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+.hero Img{
+    width: 250px;
+    margin-top: 60px;
+    
+    
+}
+.hero h1{
+    text-align: center;
+    font-weight:600 ;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
+}
+.hero h2{
+  font-weight:600 ;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    
+  }
+  
+  .social-icons a {
+    color: #ffffff; 
+    transition: 0.3s;
+    
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.3);
+  }
+  .vscode:hover{
+    transform: scale(1.01);
+    
+
+  }
